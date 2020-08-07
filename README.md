@@ -266,12 +266,6 @@ Check out our [Duo Comminity](https://community.duo.com/) to pose a question or 
 * For phone support: 1-800-553-2447 (U.S.)
 * For worldwide support numbers: www.cisco.com/en/US/partner/support/tsd_cisco_worldwide_contacts.html
 
-<!--
-## Getting involved
-
-Contributions to this code are welcome and appreciated. See [CONTRIBUTING](CONTRIBUTING.md) for details. Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) at all times.
--->
-
 ## Licensing info
 
 This code is licensed under the BSD 3-Clause License. See [LICENSE](LICENSE) for details.
