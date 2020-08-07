@@ -14,7 +14,7 @@ For more information on the Duo Admin API, please see the following link: https:
 2. Clone the GitHub sample script repository, create a Python virtual environment and install Python dependencies.
 
 ```bash
-git clone https://github.com/<repository>
+git clone https://github.com/duo_admin_sample_scripts.git
 
 cd duo_admin_api_sample_scripts
 
