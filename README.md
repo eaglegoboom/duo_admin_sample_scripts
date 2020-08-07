@@ -138,9 +138,9 @@ Open the *get_phone_by_phoneid.py* file and copy the value of the `PHONE_ID` var
 python associate_phone_with_user.py
 ```
 
-The *associate_phone_with_user.py* script creates a new phone association with user *testuser*.  Inspect the JSON output.  The output only displays the success of failure status of the association. 
+The *associate_phone_with_user.py* script creates a new phone association with user *testuser*.  Inspect the JSON output.  The output only displays the success or failure status of the association. 
 
-Open the *get_user_by_userid.py* file and paste the *user_id* value into the `USER_ID = ''` variable in the *get_phone_by_userid.py*.  **Save the file**.
+Open the *get_user_by_userid.py* file and copy the value of `USER_ID = ''` value into the `USER_ID = ''` variable in the *get_phone_by_userid.py*.  **Save the file**.
 
 **Run:**
 
