@@ -17,7 +17,7 @@ I_KEY = config.DUO_API_INTEGRATION_KEY
 METHOD = 'GET'
 # Get the phone id from the get_all_users.py output
 USER_ID = ''
-API_PATH = '/admin/v1/phones/{}'.format(USER_ID)
+API_PATH = '/admin/v1/users/{}'.format(USER_ID)
 PARAMS = {}
 
 # Requesr signing helper function
