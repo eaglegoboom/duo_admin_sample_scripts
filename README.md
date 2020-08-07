@@ -45,8 +45,6 @@ pip install -r requirements.txt
 
 *(Note: additional values will also be required in many of the scripts)*
 
-
-
 ## Usage
 <!--
 Show users how to use the code. Be specific. Use appropriate formatting when showing code snippets or command line output. If a particular [DevNet Sandbox](https://developer.cisco.com/sandbox/) or [Learning Lab](https://developer.cisco.com/learning-labs/) can be used in to provide a network or other resources to be used with this code, call that out here.
@@ -54,11 +52,15 @@ Show users how to use the code. Be specific. Use appropriate formatting when sho
 
 #### 1. Manage users
 
+**Run:**
+
 ```python
 python get_all_users.py
 ```
 
 Inspect the JSON ouput
+
+**Run:**
 
 ```python
 python create_user.py
@@ -68,11 +70,15 @@ The *create_user.py* script creates a new user with username *testuser*. In the 
 
 Open the *get_user_by_userid.py* file and paste the *user_id* value into the `USER_ID = ''` variable.  Save the file.
 
+**Run:**
+
 ```python
 python get_user_by_userid.py
 ```
 
 Inspect the JSON output.
+
+**Run:**
 
 ```python
 python get_user_by_username.py
@@ -82,6 +88,8 @@ Inspect the JSON output.  The *get_user_by_username.py* file already has the tes
 
 #### 2. Manage phones
 
+**Run:**
+
 ```python
 python get_all_phones.py
 ```
@@ -90,14 +98,17 @@ Inspect the JSON ouput
 
 The *create_phone.py* requires a valid phone number to create a new phone.  Open the file and add a phone nuber to the `NUMBER = ''` variable.  Other variables are pre-populated to create an iphone device.  Save the file.
 
+**Run:**
+
 ```python
 python create_phone.py
 ```
 
 In the *create_phone.py* script JSON output find the *phone_id* value and copy it for use in the next script.
 
-
 Open the *get_phone_by_phoneid.py* file and paste the *phone_id* value into the `PHONE_ID = ''` variable.  Save the file.
+
+**Run:**
 
 ```python
 python get_phone_by_phoneid.py
@@ -106,6 +117,8 @@ python get_phone_by_phoneid.py
 Inspect the JSON output.
 
 Open the *get_phone_by_number.py* file and add the phone number you used to create the phone in the `NUMBER = ''` variable.  Save the file.
+
+**Run:**
 
 ```python
 python get_phone_by_number.py
@@ -119,6 +132,8 @@ Open the *get_user_by_userid.py* file and copy the value of the `USER_ID` variab
 
 Open the *get_phone_by_phoneid.py* file and copy the value of the `PHONE_ID` variable and paste it into the `PHONE_ID = ''` variable in the *associate_phone_with_user.py* file.  Save the file.
 
+**Run:**
+
 ```python
 python associate_phone_with_user.py
 ```
@@ -127,12 +142,16 @@ The *associate_phone_with_user.py* script creates a new phone association with u
 
 Open the *get_user_by_userid.py* file and paste the *user_id* value into the `USER_ID = ''` variable in the *get_phone_by_userid.py*.  Save the file.
 
+**Run:**
+
 ```python
 python get_phone_by_userid.py
 ```
 Inspect the JSON Output
 
 #### 4. Manage integrations
+
+**Run:**
 
 ```python
 python get_all_integrations.py
@@ -143,6 +162,8 @@ Inspect the JSON output.
 The *create_integration.py* is pre-populated with the varialbles `NAME = 'Test Integration'` and 
 `TYPE = 'authapi'` required to create a Duo Auth API integration.
 
+**Run:**
+
 ```python
 python create_integration.py
 ```
@@ -150,6 +171,8 @@ python create_integration.py
 Inspect the script JSON output and copy the *integration_key* value. 
 
 Open the *get_int_by_integration_key.py* file and paste the *integration_key* value into the `INTEGRATION_KEY = ''` variable.  Save the file.
+
+**Run:**
 
 ```python
 python get_int_by_integration_key.py
@@ -159,6 +182,8 @@ Inspect the JSON output.
 
 #### 5. Remove users, phones, associations and integrations
 
+**Run:**
+
 ```python
 python get_int_by_integration_key.py
 ```
@@ -167,11 +192,15 @@ Find the *integration_key* value of the *Test Integration* in the *get_int_by_in
 
 Open the *delete_int_by_integration_key.py* file and paste the *integration_key* value into the `INTEGRATION_KEY = ''` variable.  Save the file.
 
+**Run:**
+
 ```python
 python delete_int_by_integration_key.py
 ```
 
 Inspect the JSON output and confirm in the Duo Admin Panel that the integration has been deleted in the **Applications** menu.
+
+**Run:**
 
 ```python
 python get_user_by_userid.py
@@ -183,6 +212,8 @@ Open the *disassociate_phone_from_user.py* file and paste the *user_id* value in
 
 Open the *delete_user_by_userid.py* file and paste the *user_id* value into the `USER_ID = ''` variable.  Save the file.
 
+**Run:**
+
 ```python
 python get_phone_by_phoneid.py
 ```
@@ -192,17 +223,23 @@ Open the *disassociate_phone_from_user.py* file and paste the *phone_id* value i
 
 Open the *delete_phone_by_phoneid.py* file and paste the *phone_id* value into the `PHONE_ID = ''` variable.  Save the file.
 
+**Run:**
+
 ```python
 python disassociate_phone_from_user.py
 ```
 
 Inspect the JSON output and confirm in the Duo Admin Panel that the phone has been removed from *testuser* in the **2FA Devices** menu.
 
+**Run:**
+
 ```python
 python delete_phone_by_phoneid.py
 ```
 
 Inspect the JSON output and confirm in the Duo Admin Panel that the phone has been deleted in the **2FA Devices** menu.
+
+**Run:**
 
 ```python
 python delete_user_by_userid.py
