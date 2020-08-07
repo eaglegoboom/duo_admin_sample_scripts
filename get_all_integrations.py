@@ -8,7 +8,7 @@ https://duo.com/docs/adminapi
 
 Script Dependencies:
     requests
-    pprint
+
 Depencency Installation:
     $ pip install -r requirements.txt
 
