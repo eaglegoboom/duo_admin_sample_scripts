@@ -68,7 +68,7 @@ python create_user.py
 
 The *create_user.py* script creates a new user with username *testuser*. In the script JSON output find the *user_id* value and copy it for use in the next script.
 
-Open the *get_user_by_userid.py* file and paste the *user_id* value into the `USER_ID = ''` variable.  Save the file.
+Open the *get_user_by_userid.py* file and paste the *user_id* value into the `USER_ID = ''` variable.  **Save the file**.
 
 **Run:**
 
@@ -96,7 +96,7 @@ python get_all_phones.py
 
 Inspect the JSON ouput
 
-The *create_phone.py* requires a valid phone number to create a new phone.  Open the file and add a phone nuber to the `NUMBER = ''` variable.  Other variables are pre-populated to create an iphone device.  Save the file.
+The *create_phone.py* requires a valid phone number to create a new phone.  Open the file and add a phone nuber to the `NUMBER = ''` variable.  Other variables are pre-populated to create an iphone device.  **Save the file**.
 
 **Run:**
 
@@ -106,7 +106,7 @@ python create_phone.py
 
 In the *create_phone.py* script JSON output find the *phone_id* value and copy it for use in the next script.
 
-Open the *get_phone_by_phoneid.py* file and paste the *phone_id* value into the `PHONE_ID = ''` variable.  Save the file.
+Open the *get_phone_by_phoneid.py* file and paste the *phone_id* value into the `PHONE_ID = ''` variable.  **Save the file**.
 
 **Run:**
 
@@ -116,7 +116,7 @@ python get_phone_by_phoneid.py
 
 Inspect the JSON output.
 
-Open the *get_phone_by_number.py* file and add the phone number you used to create the phone in the `NUMBER = ''` variable.  Save the file.
+Open the *get_phone_by_number.py* file and add the phone number you used to create the phone in the `NUMBER = ''` variable.  **Save the file**.
 
 **Run:**
 
@@ -128,9 +128,9 @@ Inspect the JSON output.
 
 #### 3. Manage phone to user associations
 
-Open the *get_user_by_userid.py* file and copy the value of the `USER_ID` variable and paste it into the `USER_ID = ''` variable in the *associate_phone_with_user.py* file.  Save the file.
+Open the *get_user_by_userid.py* file and copy the value of the `USER_ID` variable and paste it into the `USER_ID = ''` variable in the *associate_phone_with_user.py* file.  **Save the file**.
 
-Open the *get_phone_by_phoneid.py* file and copy the value of the `PHONE_ID` variable and paste it into the `PHONE_ID = ''` variable in the *associate_phone_with_user.py* file.  Save the file.
+Open the *get_phone_by_phoneid.py* file and copy the value of the `PHONE_ID` variable and paste it into the `PHONE_ID = ''` variable in the *associate_phone_with_user.py* file.  **Save the file**.
 
 **Run:**
 
@@ -140,7 +140,7 @@ python associate_phone_with_user.py
 
 The *associate_phone_with_user.py* script creates a new phone association with user *testuser*.  Inspect the JSON output.  The output only displays the success of failure status of the association. 
 
-Open the *get_user_by_userid.py* file and paste the *user_id* value into the `USER_ID = ''` variable in the *get_phone_by_userid.py*.  Save the file.
+Open the *get_user_by_userid.py* file and paste the *user_id* value into the `USER_ID = ''` variable in the *get_phone_by_userid.py*.  **Save the file**.
 
 **Run:**
 
@@ -170,7 +170,7 @@ python create_integration.py
 
 Inspect the script JSON output and copy the *integration_key* value. 
 
-Open the *get_int_by_integration_key.py* file and paste the *integration_key* value into the `INTEGRATION_KEY = ''` variable.  Save the file.
+Open the *get_int_by_integration_key.py* file and paste the *integration_key* value into the `INTEGRATION_KEY = ''` variable.  **Save the file**.
 
 **Run:**
 
@@ -190,7 +190,7 @@ python get_int_by_integration_key.py
 
 Find the *integration_key* value of the *Test Integration* in the *get_int_by_integration_key.py* JSON output and copy it.  
 
-Open the *delete_int_by_integration_key.py* file and paste the *integration_key* value into the `INTEGRATION_KEY = ''` variable.  Save the file.
+Open the *delete_int_by_integration_key.py* file and paste the *integration_key* value into the `INTEGRATION_KEY = ''` variable.  **Save the file**.
 
 **Run:**
 
@@ -208,9 +208,9 @@ python get_user_by_userid.py
 
 Find the *user_id* value of the *testuser* in the *get_user_by_userid.py* JSON output and copy it.  
 
-Open the *disassociate_phone_from_user.py* file and paste the *user_id* value into the `USER_ID = ''` variable.  Save the file.
+Open the *disassociate_phone_from_user.py* file and paste the *user_id* value into the `USER_ID = ''` variable.  **Save the file**.
 
-Open the *delete_user_by_userid.py* file and paste the *user_id* value into the `USER_ID = ''` variable.  Save the file.
+Open the *delete_user_by_userid.py* file and paste the *user_id* value into the `USER_ID = ''` variable.  **Save the file**.
 
 **Run:**
 
@@ -219,9 +219,9 @@ python get_phone_by_phoneid.py
 ```
 Find the *phone_id* value of the phone in the *get_phone_by_phoneid.py* JSON output and copy it.
 
-Open the *disassociate_phone_from_user.py* file and paste the *phone_id* value into the `PHONE_ID = ''` variable.  Save the file.
+Open the *disassociate_phone_from_user.py* file and paste the *phone_id* value into the `PHONE_ID = ''` variable.  **Save the file**.
 
-Open the *delete_phone_by_phoneid.py* file and paste the *phone_id* value into the `PHONE_ID = ''` variable.  Save the file.
+Open the *delete_phone_by_phoneid.py* file and paste the *phone_id* value into the `PHONE_ID = ''` variable.  **Save the file**.
 
 **Run:**
 
