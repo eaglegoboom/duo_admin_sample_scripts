@@ -84,7 +84,7 @@ Inspect the JSON output.
 python get_user_by_username.py
 ```
 
-Inspect the JSON output.  The *get_user_by_username.py* file already has the testuser deifined in the `USERNAME = 'testuser'` variable.
+Inspect the JSON output.  The *get_user_by_username.py* file already has the testuser defined in the `USERNAME = 'testuser'` variable.
 
 #### 2. Manage phones
 
