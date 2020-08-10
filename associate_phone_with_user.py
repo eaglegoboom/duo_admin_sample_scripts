@@ -54,7 +54,7 @@ PARAMS = {
           }
 
 
-# Request signing helper function
+# Request signing helper function signing helper function
 def sign(method=METHOD, 
          host=API_HOSTNAME, 
          path=API_PATH, 

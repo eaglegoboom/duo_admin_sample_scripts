@@ -20,7 +20,7 @@ USER_ID = ''
 API_PATH = '/admin/v1/users/{}'.format(USER_ID)
 PARAMS = {}
 
-# Requesr signing helper function
+# Request signing helper function
 def sign(method=METHOD, 
          host=API_HOSTNAME, 
          path=API_PATH, 

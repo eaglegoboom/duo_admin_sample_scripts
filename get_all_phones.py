@@ -50,7 +50,7 @@ METHOD = 'GET'
 API_PATH = '/admin/v1/phones'
 PARAMS = {}
 
-# Requesr signing helper function
+# Request signing helper function
 def sign(method=METHOD, 
          host=API_HOSTNAME, 
          path=API_PATH, 

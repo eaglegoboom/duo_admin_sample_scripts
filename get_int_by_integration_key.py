@@ -52,7 +52,7 @@ INTEGRATION_KEY = ''
 API_PATH = '/admin/v1/integrations/{}'.format(INTEGRATION_KEY)
 PARAMS = {}
 
-# Requesr signing helper function
+# Request signing helper function
 def sign(method=METHOD, 
          host=API_HOSTNAME, 
          path=API_PATH, 
